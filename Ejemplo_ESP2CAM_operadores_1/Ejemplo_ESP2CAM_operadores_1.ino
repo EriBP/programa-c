@@ -1,15 +1,14 @@
 /*
  * ESP32CAM_OPERADORES
  * Por: Erika Barojas
- * Fecha: 8 de abril 2022
+ * Fecha: 11 de abril 2022
 2* 
- * ESTE ES UN PROGRAMA PARA EJEMPLIFICAR EL USO BASICO DEL LENGUAJE C
- * Y EL MICROCONTROLADOR ESP32CAM
+ * ESTE ES UN PROGRAMA PARA EJEMPLIFICAR EL USO DEL OPERADOR MODULO
  */
 
 // Bibliotecas
-#include <Serial.h>  
-
+//#include <Serial.h>  
+//EL SERIAL ESTA DENTRO DE LA BIBLIOTECA DE ARDUINO
 // Constantes
 
 // Variables
@@ -20,7 +19,7 @@ int dato = 0;   // Inicializo una variable para establecer un contador de anillo
 void setup() {// Inicio de void setup ()
   // Aquí va tu código
     Serial.begin (115200); //inicializar el moonitor serial, parametro velocidad
-    Serial.println("Conexion iniciada"// probar comunicacion serial con un mensaje. De la biblioteca serial instruccion println
+    Serial.println("Conexion iniciada");// probar comunicacion serial con un mensaje. De la biblioteca serial instruccion println
     delay (1000);//Agregar esperas poder visualizar lo que se necesita en milisegundos
     
 }// Fin de void setup

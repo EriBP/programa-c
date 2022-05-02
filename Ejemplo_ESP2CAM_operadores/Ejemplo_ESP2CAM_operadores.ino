@@ -8,7 +8,7 @@
  */
 
 // Bibliotecas
-#include <Serial.h>  
+//#include <Serial.h>  
 
 // Constantes
 
@@ -20,7 +20,7 @@ int dato = 0;   // Inicializo una variable para establecer un contador de anillo
 void setup() {// Inicio de void setup ()
   // Aquí va tu código
     Serial.begin (115200); //inicializar el moonitor serial, parametro velocidad
-    Serial.println("Conexion iniciada"// probar comunicacion serial con un mensaje. De la biblioteca serial instruccion println
+    Serial.println("Conexion iniciada");// probar comunicacion serial con un mensaje. De la biblioteca serial instruccion println
     delay (1000);//Agregar esperas poder visualizar lo que se necesita en milisegundos
     
 }// Fin de void setup
