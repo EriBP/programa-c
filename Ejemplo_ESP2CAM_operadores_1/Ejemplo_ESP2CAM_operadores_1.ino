@@ -43,6 +43,7 @@ void loop() {// Inicio de void loop
 
     
         // CON OPERADOR
+   
     dato %= 8; //operador de residuo
     
     Serial.println(dato);    //imprimo contenido dato
