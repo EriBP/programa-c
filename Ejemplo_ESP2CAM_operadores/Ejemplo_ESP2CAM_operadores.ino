@@ -37,7 +37,7 @@ void loop() {// Inicio de void loop
       dato = 0;                                                                                                          
     }
 
-    dato %= 8; //operador de residuo
+    // dato %= 8; //operador de residuo
     
     Serial.println(dato);    //imprimo contenido dato
     delay (1000);    //Espera
